@@ -1,0 +1,1 @@
+alert("Get better my love");
