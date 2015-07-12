@@ -638,6 +638,7 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Marcius/.ssh/id_rsa.pub",
 		"/D/GoogleDrive/Lessons/Practice/Ember/codeschool/1/js/ember.js",
 		"/D/GoogleDrive/Lessons/Practice/Ember/codeschool/js/ember.js",
 		"/D/GoogleDrive/Lessons/Practice/Ember/codeschool/js/emberData.js",
@@ -699,7 +700,6 @@
 		"/D/GoogleDrive/Lessons/Practice/Node/badges-socket-client/public/client.js",
 		"/D/GoogleDrive/OSF/MyProjects/Demandware/DemandwareDocs/index.html",
 		"/D/GoogleDrive/OSF/MyProjects/Demandware/BootstrapDocs/index.html",
-		"/C/Users/Marcius/.ssh/id_rsa.pub",
 		"/D/GoogleDrive/OSF/MyProjects/Demandware/DemandwareDocs/js/jquery.js",
 		"/E/downloads/jquery-1.11.3.min (2).js",
 		"/C/Users/Marcius/Desktop/oldContent/cont.js",
@@ -1024,8 +1024,8 @@
 						"selection":
 						[
 							[
-								259,
-								259
+								286,
+								286
 							]
 						],
 						"settings":
@@ -1033,7 +1033,7 @@
 							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 4.0,
+						"translation.y": 73.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

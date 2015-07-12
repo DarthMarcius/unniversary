@@ -1,0 +1,29 @@
+{
+  "name": "unniversary",
+  "version": "1.0.0",
+  "description": "Markiyan and Maryana unniversary site",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DarthMarcius/unniversary.git"
+  },
+  "keywords": [
+    "unniversary",
+    "3d",
+    "css",
+    "slider"
+  ],
+  "author": "Markiyan Pyts",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DarthMarcius/unniversary/issues"
+  },
+  "homepage": "https://github.com/DarthMarcius/unniversary",
+  "dependencies": {
+    "express": "^4.13.1"
+  }
+}
