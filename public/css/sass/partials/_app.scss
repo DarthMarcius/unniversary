@@ -20,18 +20,16 @@ body {
     width: 400px;
     height: 400px;
     margin: 200px auto 0 auto;
-    perspective: 600px;
-    -webkit-perspective: 600px; 
-    -moz-perspective: 600px;
+    @include perspective(600px); 
     z-index: 500;
     .slider-wrapper {
         width: 100%;
         height: 100%;
-        -webkit-transform-style: preserve-3d;
-        transform-style: preserve-3d;
-        transition: all 1s;
+        @include transform-style(preserve-3d);
+        @include transition-property(all);
+        @include transition-duration(1s);
         &.turn {
-            -webkit-transform: rotateY(540deg);
+            @include rotateY(540deg);
         }
         .slider {
             width: 100%;
@@ -45,18 +43,15 @@ body {
             outline : none;
         }
         .slider-front {
-            -webkit-transform: rotateY(0deg);
             background-color: gray;
-            
             background-size: 100%;
         }
         .slider-back {
-            -webkit-transform: rotateY(180deg);
-            -webkit-transform: translateZ(-2px);
+            @include rotateY(180deg);
+            @include translateZ(-2px);
              background-color: green;
         }
     }
-
 }
 .title {
     display: inline-block;

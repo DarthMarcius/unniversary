@@ -88,24 +88,34 @@ body {
   width: 400px;
   height: 400px;
   margin: 200px auto 0 auto;
-  perspective: 600px;
-  -webkit-perspective: 600px;
   -moz-perspective: 600px;
+  -webkit-perspective: 600px;
+  perspective: 600px;
   z-index: 500;
 }
-/* line 27, sass/partials/_app.scss */
+/* line 25, sass/partials/_app.scss */
 .slider-viewport .slider-wrapper {
   width: 100%;
   height: 100%;
+  -moz-transform-style: preserve-3d;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
-  transition: all 1s;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -moz-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+  transition-duration: 1s;
 }
-/* line 33, sass/partials/_app.scss */
+/* line 31, sass/partials/_app.scss */
 .slider-viewport .slider-wrapper.turn {
+  -moz-transform: rotateY(540deg);
   -webkit-transform: rotateY(540deg);
+  transform: rotateY(540deg);
 }
-/* line 36, sass/partials/_app.scss */
+/* line 34, sass/partials/_app.scss */
 .slider-viewport .slider-wrapper .slider {
   width: 100%;
   height: 100%;
@@ -119,20 +129,23 @@ body {
   top: 0;
   outline: none;
 }
-/* line 47, sass/partials/_app.scss */
+/* line 45, sass/partials/_app.scss */
 .slider-viewport .slider-wrapper .slider-front {
-  -webkit-transform: rotateY(0deg);
   background-color: gray;
   background-size: 100%;
 }
-/* line 53, sass/partials/_app.scss */
+/* line 49, sass/partials/_app.scss */
 .slider-viewport .slider-wrapper .slider-back {
+  -moz-transform: rotateY(180deg);
   -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  -moz-transform: translateZ(-2px);
   -webkit-transform: translateZ(-2px);
+  transform: translateZ(-2px);
   background-color: green;
 }
 
-/* line 61, sass/partials/_app.scss */
+/* line 56, sass/partials/_app.scss */
 .title {
   display: inline-block;
   margin-top: 50%;
